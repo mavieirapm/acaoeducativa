@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Percursos didáticos para jovens e adultos
+    </title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <!-- CSS Files -->
+    <link href="./assets/css/material-kit.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="code/timeline.css">
+    <link rel="stylesheet" href="code/timeline2.css">
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+
+
+    <style>
+
+
+
+
+        .tit_bloco2 {
+  background: #ecb11f; 
+  color: #000; 
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: "Verdana";
+  font-size: 14px;
+  width: 100%;
+	}
+        
+.tit_bloco2:hover {
+  background: #e37222; 
+  color: #fff; 
+	}
+
+	
+.collapse2 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  word-wrap: break-word;
+	}
+        
+.collapse2 p {
+  padding: 30px 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ecb11f;
+	}
+        
+        
+
+.tit_bloco3 {
+  background: #ecb11f; 
+  color: #fff; 
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: "Verdana";
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+	}
+        
+.tit_bloco3:hover {
+  background: #e37222; 
+  color: #fff; 
+	}
+        
+        
+.tit_bloco3_2 {
+  background: #007e7a; 
+  color: #fff; 
+  padding: 8px 20px;
+  cursor: pointer;
+  font-family: "Verdana";
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+	}
+        
+.tit_bloco3_2:hover {
+  background: #0a9692; 
+  color: #fff; 
+	}
+
+	
+.collapse3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  word-wrap: break-word;
+	}
+        
+.conteudobloco3{
+  padding: 30px 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ecb11f;
+        }
+        
+.conteudobloco3_2{
+  padding: 30px 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ecb11f;
+        }
+
+
+        
+        
+.flip-card {
+    background-color: transparent;
+    width: 220px;
+    height: 380px;
+    perspective: 1000px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    color: black;
+    z-index: 2;
+}
+
+.flip-card-back {
+    background-color: #007e7a;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+    padding: 0px 10px;
+    border-radius: 25px;
+}
+
+.flip-card-back p {
+    font-size: 13px;
+    line-height: 12px;
+}   
+        
+        
+.video{
+    width: 75%;
+    height: 420px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #bb133e;
+    display: inline-block"
+        }
+        
+        
+
+.box_audio {
+    width: 100%;
+    float: left;
+    margin: 60px 0px;
+}
+
+.audio {
+    text-align: center;
+    background-color: #bb133e;
+    width: 40%;
+    box-shadow: 2px 2px 5px grey;
+    margin: 0 auto;
+}
+
+.audio audio {
+    border-style: solid;
+    border-color: #bb133e;
+    border-width: 1px;
+    width: 320px;
+}    
+
+@font-face{
+font-family: 'Caecilia';
+src: url('fonts/Caecilia-Heavy.otf');
+src: url('fonts/Caecilia-Heavy.otf?#iefix') format('embedded-opentype'),
+url('fonts/Caecilia-Heavy.otf') format('woff'), url('fonts/Caecilia-Heavy.otf') format('truetype'), url('fonts/Caecilia-Heavy.otf#Caecilia') format('svg');
+}        
+        
+h1,h2, h3, h4, h5 {
+  font-family: "Caecilia";
+  color: #bb133e; 
+}
+        
+        
+        
+        
+        
+@media screen and (max-width : 720px){
+    
+.video{
+    width: 100%;
+    height: 420px;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block"
+        }
+    
+    .page-header {
+    width: 100%;
+    margin-top: 42px;
+    display: inline-block;
+    margin-bottom: -100px;
+}
+    
+    .section {
+    padding: 0px 0px;
+    margin-top: 0px;
+}
+    
+    .main-raised{
+        padding: 12px 12px;
+    }
+    
+    .video{
+    width: 100%;
+    height: 220px;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block"
+        }
+    
+    .col-md-10 img {
+        max-width: 100%;
+    }
+    
+.box_audio {
+    width: 100%;
+}
+
+.audio {
+    width: 100%;
+}
+
+.audio audio {
+    width: 90%;
+}
+    
+}
+        
+        
+        
+        
+        
+
+        
+
+        
+        
+        
+@media screen and (max-width : 720px){       
+	
+	
+.tit_bloco2 {
+  color: #fff; 
+  margin: 0px;
+  padding: 5px 0px;
+  cursor: pointer;
+  font-family: "Verdana";
+  font-size: 12px;
+  text-align: left;
+	}	
+
+
+    
+	
+.collapse2 {
+  margin-bottom: 2px;
+  margin-top: 0px;
+	}
+    
+.collapse2 p {
+  padding: 20px 20px;
+	}
+	
+#img_tit{
+	width: 60%;	
+	}
+        
+        
+.tit_bloco3 {
+  background: #ecb11f; 
+  color: #fff; 
+  padding: 5px 0px;
+  cursor: pointer;
+  font-family: "Verdana";
+  font-size: 14px;
+  width: 100%;
+	}
+        
+.tit_bloco3:hover {
+  background: #e37222; 
+  color: #fff; 
+	}
+        
+        
+.tit_bloco3_2 {
+  background: #007e7a; 
+  color: #fff; 
+  padding: 5px 0px;
+  cursor: pointer;
+  font-family: "Verdana";
+  font-size: 14px;
+  width: 100%;
+	}
+        
+.tit_bloco3_2:hover {
+  background: #0a9692; 
+  color: #fff; 
+	}
+
+	
+.collapse3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  word-wrap: break-word;
+	}
+        
+.conteudobloco3{
+  padding: 20px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ecb11f;
+  margin-bottom: 20px;
+        }
+        
+.conteudobloco3_2{
+  padding: 20px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ecb11f;
+        }
+
+
+       
+
+.flip-card {
+        background-color: transparent;
+        width: 220px;
+        height: 380px;
+        perspective: 1000px;
+        float: left;
+        margin-left: 20%;
+        margin-bottom: 40px;
+    }
+        
+}
+        
+
+
+
+        
+
+
+        
+        
+        
+	</style>
+
+</head>
+
+
+
+<script src="code/jquery-3.3.1.min.js"></script>
+
+
+<script>// <![CDATA[
+$(document).ready(function() {
+  // Hides all paragraphs
+  $(".conteudobloco").hide();
+  // Optional for showing the first paragraph. For animation use .slideDown(200) instead of .show()
+  //$(".conteudobloco").first().show();
+  $(".tit_bloco").click(function()
+  {
+    // Toggles the paragraph under the header that is clicked. .slideToggle(200) can be changed to .slideDown(200) to make sure one paragraph is shown at all times.
+    $(this).next(".conteudobloco").slideToggle(200);
+    // Makes other pararaphes that is not under the current clicked heading dissapear
+    $(this).siblings().next(".conteudobloco").slideUp(200);
+	$('video').each(function() 
+{
+    $(this)[0].pause();
+});
+	$('audio').each(function() 
+{
+    $(this)[0].pause();
+});
+	  
+	  
+	  
+	  
+  });
+	
+	
+	
+});
+	
+	
+// ]]></script>
+
+
+
+
+
+
+
+
+
+<script>// <![CDATA[
+$(document).ready(function() {
+  $(".conteudobloco2").hide();
+  
+  $(".tit_bloco2").click(function()
+  {
+    $(this).next(".conteudobloco2").slideToggle(200);
+    $(this).siblings().next(".conteudobloco2").slideUp(200);
+  });
+});
+// ]]></script>
+
+
+<script>// <![CDATA[
+$(document).ready(function() {
+  $(".conteudobloco3").hide();
+  
+  $(".tit_bloco3").click(function()
+  {
+    $(this).next(".conteudobloco3").slideToggle(200);
+    $(this).siblings().next(".conteudobloco3").slideUp(200);
+  });
+});
+// ]]></script>
+
+
+
+<script>// <![CDATA[
+$(document).ready(function() {
+  $(".conteudobloco3_2").hide();
+  
+  $(".tit_bloco3_2").click(function()
+  {
+    $(this).next(".conteudobloco3_2").slideToggle(200);
+    $(this).siblings().next(".conteudobloco3_2").slideUp(200);
+  });
+});
+// ]]></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+    /*Interactivity to determine when an animated element in in view. In view elements trigger our animation*/
+$(document).ready(function() {
+
+  //window and animation items
+  var animation_elements = $.find('.animation-element');
+  var web_window = $(window);
+
+  //check to see if any animation containers are currently in view
+  function check_if_in_view() {
+    //get current window information
+    var window_height = web_window.height();
+    var window_top_position = web_window.scrollTop();
+    var window_bottom_position = (window_top_position + window_height);
+
+    //iterate through elements to see if its in view
+    $.each(animation_elements, function() {
+
+      //get the element sinformation
+      var element = $(this);
+      var element_height = $(element).outerHeight();
+      var element_top_position = $(element).offset().top;
+      var element_bottom_position = (element_top_position + element_height);
+
+      //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
+      if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+        element.addClass('in-view');
+      } else {
+        element.removeClass('in-view');
+      }
+    });
+
+  }
+
+  //on or scroll, detect elements in view
+  $(window).on('scroll resize', function() {
+      check_if_in_view()
+    })
+    //trigger our scroll event on initial load
+  $(window).trigger('scroll');
+
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+<body class="index-page sidebar-collapse">
+    <nav class="navbar fixed-top navbar-expand-lg" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="material-icons">home</i> Início
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eixo1.html">
+                            Fundamentos<br>da EJA
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eixo2.html">
+                            Diversidade: gênero<br>e raça na EJA
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eixo3.html">
+                            Uma metodologia <br>para os sujeitos da EJA
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pgativa" href="#">
+                            <span style="color:#fff">Educação<br>profissional</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="eixo5.html">
+                            Cidades, mobilidade<br>e sustentabilidade
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <img src="imagens/eixo4_img1.png" style="max-width: 100%;" align="center">
+    </div>
+
+
+    <div class="main main-raised">
+
+
+        <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+                <p>&nbsp;</p>
+
+                <p align="center"><iframe class="video" src="https://drive.google.com/file/d/19y8E7YHvGmWbRA7BrgmPw3WKzxV234dp/preview"></iframe></p>
+
+
+                <h2>Módulos</h2>
+                <p>Clique nos itens abaixo para visualizar os módulos.</p>
+
+
+                <button class="btn btn-primary4" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample" style="width: 100%;">
+                    1 &ndash; Concepções de educação profissional
+                </button>
+
+                <div class="collapse" id="collapse1">
+                    <div class="card card-body">
+                        <p>Vamos conhecer por meio da narração e dos dados históricos como se deu a articulação da Educação de Jovens e Adultos e a educação profissional.</p>
+
+                        <div class="box_audio">
+                            <div class="audio">
+                                <p style="padding-top: 10px;">Aperte o play e escute o áudio sobre o histórico da educação profissional no Brasil.</p>
+                                <audio width="600" controls>
+                                    <source src="imagens/eixo4_mod1.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta esse formato de áudio.
+                                </audio>
+                            </div>
+                        </div>
+
+
+                        <div class="image_desc" align="center">
+                            <div class="flip">
+                                <img src="imagens/eixo4_img2.jpg" alt="Avatar" class="imageflip">
+                                <div class="overlay">
+                                    <div class="text">A falta de trabalho atinge mais de 27 milhões de pessoas no país, segundo <a href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/22218-pnad-continua-tri-taxa-de-subutilizacao-da-forca-de-trabalho-e-de-24-6-no-segundo-trimestre-de-2018.html" target="_blank">dados do IBGE.</a></div>
+
+                                </div>
+                                <p align="center">Passe o mouse sobre a imagem.</p>
+                            </div>
+
+                        </div>
+                        <p>&nbsp;</p>
+
+                        <div id="btempos" style="width: 100%;">
+                            <p align="center"><map name="shape">
+                                    <area shape="rect" id="btempo1" coords="208, 252, 336, 388">
+                                    <area shape="rect" id="btempo2" coords="349, 261, 480, 381" />
+                                    <area shape="rect" id="btempo3" coords="495, 259, 616, 370" />
+                                    <area shape="rect" id="btempo4" coords="636, 264, 754, 377" />
+                                </map>
+                                <img class="ltempo1" src="imagens/info5.png" usemap="#shape" style="display: inline-block;width: 700px" /></p>
+                        </div>
+
+                        <div id="tempo1" style="width: 100%;display: none">
+                            <p align="center">
+                                <map name="shape2">
+                                    <area shape="rect" id="fechaltempo1" coords="434, 500, 619, 578" />
+                                </map>
+                                <img src="imagens/info5_1.png" usemap="#shape2" style="display: inline-block;width: 700px" />
+                            </p>
+                        </div>
+
+                        <div id="tempo2" style="width: 100%;display: none">
+                            <p align="center">
+                                <map name="shape3">
+                                    <area shape="rect" id="fechaltempo2" coords="434, 500, 619, 578" />
+                                </map>
+                                <img src="imagens/info5_2.png" usemap="#shape3" style="display: inline-block;width: 700px" />
+                            </p>
+                        </div>
+
+                        <div id="tempo3" style="width: 100%;display: none">
+                            <p align="center">
+                                <map name="shape4">
+                                    <area shape="rect" id="fechaltempo3" coords="434, 500, 619, 578" />
+                                </map>
+                                <img src="imagens/info5_3.png" usemap="#shape4" style="display: inline-block;width: 700px" />
+                            </p>
+                        </div>
+
+                        <div id="tempo4" style="width: 100%;display: none">
+                            <p align="center">
+                                <map name="shape5">
+                                    <area shape="rect" id="fechaltempo4" coords="434, 500, 619, 578" />
+                                </map>
+                                <img src="imagens/info5_4.png" usemap="#shape5" style="display: inline-block;width: 700px" />
+                            </p>
+                        </div>
+
+
+
+
+                        <p><br>Apesar de medidas normativas e programáticas visando articulação entre formação geral e formação profissional, sua separação ainda marca o espírito de muitas propostas pedagógicas. A integração entre os dois propósitos formativos requer uma mudança de paradigma sobre aquilo que possa ser formação para o trabalho.</p>
+
+
+                        <p>O dualismo histórico entre as modalidades formativas acabou por consolidar uma concepção de educação profissional restrita ao desenvolvimento de habilidades e competências que adequasse os sujeitos às demandas do mercado. Essa perspectiva mercantil da educação traz implícita uma ideia de ser humano: alguém reduzido à condição de recurso empregável ao mercado de trabalho. </p>
+                        <p>&nbsp;</p>
+
+                        <p align="center"><img src="imagens/eixo4_img4_11.png" style="width: 100%; display: inline-block" align="center"></p>
+                        <p>&nbsp;</p>
+
+                        <p>Aqui, temos o propósito de pensar uma EJA em que a educação profissional não assuma um sentido exclusivamente utilitário. O emprego, evidentemente, faz parte da expectativa dos educandos e deve orientar as ações formativas. Acreditamos, porém, que o trabalho, para além da prática, deva ser considerado objeto do conhecimento, assim ingressando no mundo do saber.</p>
+
+                        <p>É importante que o trabalho seja considerado em sua dimensão da ciência, da tecnologia, da cultura e da cidadania. Abre-se então a possibilidade do trabalhador situar-se historicamente, refletir sobre a natureza de sua participação social e reconhecer o trabalho como promotor de sua própria transformação. A educação profissional assume então seu compromisso com a formação integral dos sujeitos.</p>
+
+                        <p>Essa mudança de concepção sobre a educação profissional é acompanhada por uma transformação do horizonte formativo. Deixamos de pensar o trabalho como exercício produtivo e passamos a pensá-lo como mote para o desenvolvimento da cidadania. É quando a formação profissional deixa de apenas mirar o mercado e lança luz sobre o mundo do trabalho.</p>
+
+                        <p>&nbsp;</p>
+
+                        <blockquote style="background-color: #fff;padding:20px;border: dashed 4px #BB133E;">
+                            <h3><img src="imagens/e4book.png" style="width: 42px;vertical-align: middle;">&nbsp;&nbsp;&nbsp;Texto para discussão.</h3>
+                            <p style="padding-left:20px;">SAVIANI, Dermeval. <strong><a href="pdf/a12v1234.pdf" target="_blank">Trabalho e educação: fundamentos ontológicos e históricos</a></strong>. Revista Brasileira de Educação. Rio de Janeiro, volume 12, número 34, pp. 152-180, jan/abr 2007.</p>
+                            <p style="padding-left:20px;">O artigo faz uma retrospectiva histórica das relações entre educação e trabalho, mostrando sua separação por um longo período e as tentativas de reestabelecimento de vínculos no mundo contemporâneo.</p>
+                        </blockquote>
+
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+
+
+
+                    </div>
+                </div>
+
+
+                <button class="btn btn-primary4" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample" style="width: 100%;">
+                    2 &ndash; A definição de um programa de formação
+                </button>
+
+                <div class="collapse" id="collapse2">
+                    <div class="card card-body">
+                        <p>A diversidade do público da EJA e de contextos nos quais a oferta desse segmento é relevante desafia gestores e educadores a planejar projetos pedagógicos diferenciados e específicos, inclusive no que diz respeito aos modelos de integração com a Educação Profissional. </p>
+
+                        <p>Um desses modelos é a EJA integrada à Educação Profissional. Nesse caso, os alunos cursam disciplinas da base comum e disciplinas voltadas à formação para o trabalho em uma determinada área ocupacional. Essa integração pode se dar por meio de duas propostas formativas, conforme a seguir.</p>
+
+                        <p style="padding-left: 20px"><strong>a)</strong> Ensino fundamental e médio da EJA integrados à Formação Integral Continuada (EJA-FIC): oferece a base comum curricular e disciplinas de uma determinada área profissional, oferecendo uma certificação final.</p>
+                        <p style="padding-left: 20px"><strong>b)</strong> Ensino Médio da EJA articulado à Educação Profissional Técnica de Nível Médio: também oferece a base comum curricular e as disciplinas do curso técnico em uma determinada área.</p>
+
+                        <p align="center"><img src="imagens/eixo4_img2.png" style="width: 100%; display: inline-block" align="center"></p>
+
+                        <p class="pButton"><a href="http://www.observatoriodopne.org.br/metas-pne/10-eja-integrada-a-educacao-profissional" class="myButton" target="_blank">Clique aqui e saiba mais</a></p>
+
+                        <p>Outro modelo de integração da EJA com a Educação Profissional é aquele em que o ensino fundamental e o médio assumem o trabalho como eixo condutor do currículo das disciplinas convencionais (ver Módulo 3). Nesse caso existe uma certificação da formação geral, mas não da habilitação profissional. </p>
+
+                        <p>A definição de um programa de formação que integre os conhecimentos gerais com os específicos do mundo do trabalho deve ser criteriosa, considerando as características do público e o contexto em que vive.</p>
+
+                        <p>Os cursos podem ser planejados tendo em vista as demandas, por exemplo, de populações da periferia de grandes centros urbanos, comunidades itinerantes, rurais, indígenas, quilombolas ou privadas de liberdade. Para cada caso deve-se pensar como a escola pode contribuir para o desenvolvimento da cidadania e a ampliação das oportunidades profissionais dos educandos.</p>
+
+                        <p>A identificação das demandas formativas do público atendido pela escola precisa levar em conta sua trajetória profissional, as condições de trabalho que experimentam e seus projetos para o mundo do trabalho. Também é importante considerar a situação de desemprego e de procura de um primeiro emprego, como ocorre com os jovens que aderem à EJA.</p>
+
+                        <p>O planejamento deve ainda compreender um estudo do desenvolvimento econômico local, buscando conhecer as condições de vida da população e a esfera do trabalho, o que inclui as atividades econômicas e a oferta de ocupações na região.</p>
+
+                        <p>Dependendo do perfil dos sujeitos e das condições locais, o currículo pode oferecer itinerários formativos para determinados arcos profissionais. Eles consistem em conjuntos de ocupações que fazem parte de um mesmo setor da economia e possuem base técnica comum, podendo abranger as esferas da produção, da circulação de bens e da prestação de serviços. A <a href="pdf/Prefeitura_de_Santo_Andre.pdf" target="_blank">formação por arcos profissionais</a> inclui atividades teóricas e práticas, podendo contribuir para atender as “demandas de sobrevivência” de uma comunidade, pois amplia a gama de possibilidades de inserção ocupacional dos educandos como assalariados, autônomos ou em atividades da economia solidária.</p>
+
+
+                        <strong>Passe o mouse sobre os cards abaixo para conhecer mais sobre os arcos de atuação mais procuradas por estudantes de nível técnico e suas diferentes ocupações.</strong>
+
+                        <div style="width: 100%;text-align: center;">
+                            <div style="margin: 0 auto;width: 99.9%;">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="imagens/flipcard1.jpg" alt="card" style="width:220px;height:380px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h4>Agro-extrativista<br>(18 a 24 anos)</h4>
+                                            <p><strong>Ocupações</strong></p>
+                                            <p align="justify">• Criador de pequenos animais (apicultura ou avicultura de corte ou avicultura de postura)</p>
+                                            <p align="justify">• Trabalhador em Cultivo regional (fruticultura, olericultura)</p>
+                                            <p align="justify">• Extrativista florestal de produtos regionais (madeira; alimentos silvestres; fibras, ceras e óleos; gomas e resinas) Artesão regional (cerâmica, bordados, madeira, palha e materiais orgânicos)</p>
+
+                                            <p align="justify"><strong>Mínimo - 1104 horas e Máximo - 1840 horas</strong></p>
+                                            <p align="justify">Teoria: ≥ 552 horas e ≤ 920 horas<br>
+                                                Prática: ≥ 552 horas e ≤ 1288 horas</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="imagens/flipcard2.jpg" alt="card" style="width:220px;height:380px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h4>Alimentação<br>(18 a 24 anos)</h4>
+                                            <p><strong>Ocupações</strong></p>
+                                            <p><strong>Ocupações</strong></p>
+                                            <p align="justify">• Chapista</p>
+                                            <p align="justify">• Repositor de mercadorias (em supermercados)</p>
+                                            <p align="justify">• Cozinheiro auxiliar</p>
+                                            <p align="justify">• Vendedor ambulante (alimentação)</p>
+                                            <p align="justify"><strong>Mínimo - 1104 horas e Máximo - 1840 horas</strong></p>
+                                            <p align="justify">Teoria: ≥ 552 horas e ≤ 920 horas</p>
+                                            <p align="justify">Prática: ≥ 552 horas e ≤ 1288 horas</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="imagens/flipcard3.jpg" alt="card" style="width:220px;height:380px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h4>Vendas<br>(14 a 24 anos)</h4>
+                                            <p><strong>Ocupações</strong></p>
+                                            <p align="justify">• Assistente de Vendas</p>
+                                            <p align="justify">• Vendedor em Comércio Varejista</p>
+                                            <p align="justify">• Agente de Vendas de Serviços</p>
+                                            <p align="justify">• Designer de Vitrines </p>
+
+                                            <p align="justify"><strong>Mínimo - 1104 horas e Máximo - 1840 horas</strong></p>
+                                            <p align="justify">Teoria: ≥ 552 horas e ≤ 920 horas</p>
+                                            <p align="justify">Prática: ≥ 552 horas e ≤ 1288 horas</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="imagens/flipcard4.jpg" alt="card" style="width:220px;height:380px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h4>Serviços Administrativos<br>(14 a 24 anos)</h4>
+                                            <p><strong>Ocupações</strong></p>
+                                            <p align="justify">• Auxiliar de escritório </p>
+                                            <p align="justify">• Assistente Administrativo</p>
+                                            <p align="justify">• Auxiliar de Pessoal</p>
+                                            <p align="justify">• Auxiliar de Almoxarifado</p>
+                                            <p align="justify">• Recepcionista</p>
+                                            <p align="justify"><strong>Mínimo - 1104 horas e Máximo - 1840 horas</strong></p>
+                                            <p align="justify">Teoria: ≥ 552 horas e ≤ 920 horas</p>
+                                            <p align="justify">Prática: ≥ 552 horas e ≤ 1288 horas</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <p>&nbsp;</p>
+                        <p align="center">
+                            <button class="btn btn-primary4" type="button" style="width: 100%;">
+                                <a href="pdf/AnexoI_Catalogo_Nacional_de_programas_de_Aprendizagem.pdf" target="_blank" style="color: #fff;">Conheça a lista completa de arcos profissionais</a>
+                            </button>
+                        </p>
+
+                        <p>&nbsp;</p>
+
+                        <p>Como outro exemplo, podemos supor uma escola frequentada por muitos estudantes que sejam trabalhadores da construção civil. Nesse caso, o currículo poderia reservar espaço para o trabalho com medidas, técnicas de edificações empregadas historicamente e os movimentos artísticos aos quais estão relacionadas, direitos da categoria, história da organização sindical e saúde do trabalhador.</p>
+
+                        <p>O passo seguinte à definição do programa de formação que se pretende ofertar é a elaboração de um currículo que integre a formação profissional às ações educativas. Essa construção deve ser um ato colaborativo e permanente entre os docentes, visando planejar ações que articulem as diferentes disciplinas sob o principio da formação humana integral. </p>
+
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+
+
+                <button class="btn btn-primary4" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample" style="width: 100%;">
+                    3 &ndash; O trabalho no currículo da EJA
+                </button>
+
+                <div class="collapse" id="collapse3">
+                    <div class="card card-body">
+
+                        <p>No modelo da EJA integrada à Educação Profissional, espera-se que a articulação entre a formação geral e a formação para o trabalho não se resuma à justaposição das disciplinas convencionais e específicas na grade curricular. Um currículo verdadeiramente integrado pressupõe que os professores da base comum aproximem-se da temática do trabalho por meio, por exemplo, dos eixos da ciência, da tecnologia, da cultura e da cidadania. O mesmo se espera em cursos do ensino fundamental e médio de EJA que, ainda que não integrados à Educação Profissional, tenham a formação para o trabalho como um de seus objetivos. </p>
+
+                        <p>Nesses casos, as áreas de Linguagens, Matemática, Ciências Humanas e da Natureza e das Ciências Humanas podem tratar o trabalho como <a href="pdf/livro081.pdf" target="_blank">tema transversal</a>. Trata-se, afinal, de uma temática que está presente em diferentes campos do conhecimento, não existindo uma área que pudesse ser suficiente para abordá-la. Para além da habilitação técnica, a formação profissional deve atravessar diferentes disciplinas, integrando-as em torno do trabalho como objeto do conhecimento.</p>
+
+                        <p>Sugerir que um curso de Língua Portuguesa ou Matemática tome o trabalho como tema transversal não é propor que o professor ou a professora, em certo momento, interrompam a programação de suas disciplinas. A transversalidade pressupõe que um tema, como o trabalho, seja abordado simultaneamente ao desenvolvimento dos objetivos das disciplinas.</p>
+
+                        <p>Atividades orientadas ao desenvolvimento da leitura, da escrita ou da oralidade podem, por exemplo, abordar temáticas como emprego e condições de trabalho; atividades que envolvam habilidades matemáticas como interpretação de grandezas numéricas e leitura de gráficos podem propiciar a compreensão do mercado de trabalho; os direitos do trabalhador podem ser o fio condutor das aulas de História, enquanto o letramento científico pode ser estimulado por meio de pesquisas sobre novas tecnologias.</p>
+
+                        <p>&nbsp;</p>
+
+
+                        <img src="imagens/eixo4_img3.jpg" width="100%" align="center">
+
+                        <p>&nbsp; </p>
+
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <p><img src="imagens/aspas2.jpg" align="left" style="padding-right:6px;">Práticas pedagógicas no campo das Artes Plásticas podem promover a apreciação de obras que retratam trabalhadores em diferentes contextos históricos e sociais. Atividades assim planejadas podem contribuir para a formação estética dos educandos, ao mesmo tempo em que podem apoiar a reflexão e o debate sobre diversos elementos relacionados ao mundo do trabalho.</p>
+                            <hr align="center" style="margin-top: 10px">
+                        </div>
+
+                        <p>&nbsp;</p>
+                        <p>&nbsp; </p>
+
+                        <p>Esses exemplos mencionam objetivos que, na escola, costumam fazer parte do currículo das disciplinas convencionais. Ao serem postos em comunicação com a temática do trabalho, tais objetivos podem ultrapassar uma finalidade meramente escolar e assumir um sentido social.</p>
+
+
+                        <p>Embora a educação profissional em uma EJA voltada à formação humana não se limite à capacitação para o mercado, seria de se estranhar uma proposta de integração que não qualificasse o trabalhador para o acesso a novas ocupações e condições de renda. Nesse sentido, a escola também pode planejar ações voltadas ao emprego, como a pesquisa de vagas, a escrita do currículo e a participação em entrevistas de emprego. Sabemos que situações escolares de natureza mais pragmática costumam estar entre as expectativas dos educandos. Ainda assim, mesmo a questão do emprego pode ganhar abordagens que considerem as novas formas de organização do trabalho, os processos produtivos como um todo e os agentes sociais que dele participam.</p>
+
+                        <p>Fica claro que a educação profissional pode ir além do desenvolvimento de competências que promovam a inclusão no mercado de trabalho. Ela pode contribuir para que os educandos reconheçam o trabalho como um fazer humano e, portanto, sua condição de sujeitos históricos, produtores de cultura e cidadãos. Para isso, é preciso ter em vista que o direito dos educandos ao trabalho corresponde ao direito ao conhecimento sobre o mundo do trabalho.</p>
+
+                        <p>É preciso considerar que a aproximação entre as disciplinas e a transversalidade não depende apenas de cada um dos educadores, mas precisam ser produzidas em equipe e podem beneficiar-se de ações formativas do corpo docente da escola. Somente então é possível construir um currículo de educação profissional minimamente capaz de estimular a formação integral.</p>
+
+                        <p>&nbsp; </p>
+
+
+                        <blockquote style="background-color: #fff;padding:20px;border: dashed 4px #BB133E;">
+                            <h3><img src="imagens/e4book.png" style="width: 42px;vertical-align: middle;">&nbsp;&nbsp;&nbsp;Sugestões de leitura</h3>
+                            <p>SILVA, Mônica Ribeiro da. <strong><a href="pdf/a05v19n71.pdf" target="_blank">A política de integração curricular no âmbito do PROEJA: entre discursos, sujeitos e práticas. Ensaio: Avaliação e Políticas Públicas em Educação</a>.</strong> Rio de Janeiro, v. 19, n. 71, p. 307-326, abr./jun. 2011.</p>
+
+                            <p>O artigo analisa a construção de um currículo visando a integração entre educação geral e profissional no contexto de implantação do PROEJA no Estado do Paraná. Independente do contexto, as observações e relatos de campo apresentados pelo artigo são valiosos para pensar as diversas formas de integração curricular em torno do trabalho como princípio educativo.</p>
+
+                        </blockquote>
+
+                        <p>&nbsp; </p>
+
+                    </div>
+                </div>
+
+                <button class="btn btn-primary4" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseExample" style="width: 100%;">
+                    4 &ndash; Eixos norteadores para o planejamento
+                </button>
+
+                <div class="collapse" id="collapse4">
+                    <div class="card card-body">
+
+                        <p>Feitas algumas considerações sobre o currículo, podemos nos aproximar do planejamento de aulas do ensino fundamental e médio da EJA que contribuam para a formação profissional dos educandos. A preocupação aqui não é a de eleger temas, que variam de acordo com o perfil do alunado, mas de sugerir estratégias didáticas voltadas ao desenvolvimento de linguagens e atitudes altamente valorizadas pelo modo como o trabalho se organiza nos dias de hoje. Elas podem tomar parte em disciplinas da formação geral e específica para o trabalho.</p>
+
+                        <p>A maioria dos jovens e adultos volta à escola trazendo uma visão de mundo vinculada à condição de trabalhadores. Ela funda saberes, práticas e valores que devem ter espaço no processo formativo: revelam a realidade e as necessidades dos educandos, orientam o planejamento e, postos em diálogo, instauram condições para a construção da identidade do grupo como um coletivo de trabalhadores. </p>
+
+
+                        <p>O exercício narrativo sobre o vivido e a escuta do outro são capazes de gerar novas constatações e conhecimentos sobre a realidade, o que, na pedagogia de <a href="pdf/Autonomia.pdf" target="_blank">Paulo Freire</a>, é condição para transformá-la. A formação de sujeitos críticos requer a investigação da realidade e, com ela, a superação do saber da pura experiência por um conhecimento organizado, tipicamente formal e letrado.</p>
+
+                        <p>Vale lembrar que ensinar não é transferir conhecimentos, mas criar condições para sua produção. Embora aulas expositivas tenham seu valor, o papel formativo da educação profissional se esvazia quando predominam situações baseadas na transmissão de conceitos e procedimentos a alunos passivos, geralmente convidados a realizar exercícios que mais solicitam a memória e o automatismo de certas práticas do que a reflexão, a indagação, o debate e a decisão.</p>
+
+                        <p>&nbsp; </p>
+                        <p align="center"><iframe class="video_temp" src="https://drive.google.com/file/d/13gsyoOibLhgH7W_7s9I3yFn_PTui-lBz/preview"></iframe></p>
+                        <p>&nbsp; </p>
+
+                        <p>Uma situação-problema não é uma situação previsível, que possa ser realizada com instrumentos imediatamente acessíveis ao aluno, mas consiste em uma tarefa cuja realização promove aprendizagem. </p>
+                        <p>&nbsp; </p>
+                        <p align="center"><iframe class="video_temp" src="https://drive.google.com/file/d/1PlsLJE70jjr7C6pf1EXdlZcrpPNLz5dM/preview"></iframe></p>
+                        <p>&nbsp; </p>
+
+                        <p>Outra estratégia didática relevante para a formação profissional é o trabalho em pequenos grupos. Esse tipo de organização, frequente em muitas escolas, valoriza o diálogo e, por esta razão, favorece a aprendizagem frente a diversas atividades. Ocorre que a capacidade para o trabalho em grupo costuma ser tomada como pressuposto para a realização das atividades, sem que seja, ela mesma, considerada objeto de trabalho pedagógico.</p>
+                        <p>As mudanças na organização do trabalho ocorridas nas últimas décadas deram ênfase ao trabalho colaborativo, lembrando-nos, uma vez mais, que trabalhar em grupo não significa justapor alunos e alunas, mas criar condições para a reflexão sobre o modo como cada um toma parte nas relações interpessoais.</p>
+
+                        <p>&nbsp; </p>
+                        <p align="center"><img src="imagens/eixo4_img4.png" style="width: 100%; display: inline-block" align="center"></p>
+                        <p>&nbsp; </p>
+                        <p>&nbsp; </p>
+
+                        <p>No campo das linguagens, podemos destacar a importância de colocar os alunos frente a diferentes situações comunicativas, nas quais tenham a oportunidade de aproximar-se de gêneros textuais importantes no mundo do trabalho. A produção escrita de e-mails, cartas de apresentação, relatórios e slides eletrônicos pode apoiar a aprendizagem da linguagem formal, ao passo que apresentações orais planejadas abrem espaço à discussão sobre a postura adequada a esse tipo de situação.</p>
+
+
+                        <p>Vale, finalmente, considerar a presença da tecnologia no cotidiano em geral e, especificamente, seu lugar no mundo do trabalho. Nesta medida, a escola também pode contribuir para o desenvolvimento do letramento digital dos alunos, valorizando a aprendizagem do uso de softwares (para edição de textos, apresentações e planilhas) e da internet em práticas sociais nas quais eles são recursos de comunicação e informação.</p>
+
+                        <p>Acreditamos que uma proposta pedagógica que ofereça lugar ao diálogo entre educandos e educadores, inclusive em atividades que solicitem a colaboração e a comunicação entre pares, tenha o potencial de fazer com que a formação para o trabalho deixe de ser um projeto individual para tornar-se mote para o desenvolvimento pessoal e a socialização. </p>
+
+                        <p>&nbsp; </p>
+
+                        <blockquote style="background-color: #fff;padding:20px;border: dashed 4px #BB133E;float:left;">
+                            <h3><img src="imagens/e4book.png" style="width: 42px;vertical-align: middle;">&nbsp;&nbsp;&nbsp;Sugestões de leitura</h3>
+
+
+                            <p>O artigo analisa a construção de um currículo visando a integração entre educação geral e profissional no contexto de implantação do PROEJA no Estado do Paraná. Independente do contexto, as observações e relatos de campo apresentados pelo artigo são valiosos para pensar as diversas formas de integração curricular em torno do trabalho como princípio educativo.</p>
+
+                            <p>MACEDO, L. <strong>Situação-problema: Forma e recurso de avaliação, desenvolvimento de competências e aprendizagem escolar</strong>. In: Philippe Perrenoud; Monica Gather Thurler; Lino de Macedo; Nilson José Machado; Cristina Dias Allessandrini. (Org.). As competências para ensinar no século XXI: A formação dos professores e o desafio da avaliação. 01 ed.Porto Alegre: Artmed Editora, 2002, p. 113-135.</p>
+
+                        </blockquote>
+
+
+                        <p>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <p>&nbsp;</p>
+
+
+        <div class="section section-basic">
+
+
+            <div class="row">
+                <div class="col">
+                    <p align="center"><strong>Iniciativa</strong></p>
+                    <p>&nbsp; </p>
+                    <p align="center"><img src="imagens/Fundacao-Vale.png" style="display:inline-block;max-width:250px"></p>
+                </div>
+                <div class="col">
+                    <p align="center"><strong>Realização</strong></p>
+                    <p>&nbsp; </p>
+                    <p align="center"><img src="imagens/logo_acao.jpeg" style="display:inline-block;max-width:150px"></p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 ml-auto mr-auto" style="margin-top: 30px;">
+                        <p align="center"><strong>Parceiros investidores</strong></p>
+                        <p>&nbsp; </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <p align="center"><img src="imagens/logo_ght.png" style="display:inline-block;max-width:150px"></p>
+
+                    </div>
+                    <div class="col-sm">
+                        <p align="center"><img src="imagens/logo_global.png" style="display:inline-block;max-width:150px"></p>
+
+                    </div>
+                    <div class="col-sm">
+                        <p align="center"><img src="imagens/logo_michelin.png" style="display:inline-block;max-width:150px"></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+    <footer class="footer" data-background-color="black">
+        <div class="container">
+
+            <div style="text-align: center;">
+                Fundação Vale @ 2018 Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <!--	Plugin for Sharrre btn -->
+    <script src="./assets/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script src="./assets/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            //init DateTimePickers
+            materialKit.initFormExtendedDatetimepickers();
+
+            // Sliders Init
+            materialKit.initSliders();
+        });
+
+
+        function scrollToDownload() {
+            if ($('.section-download').length != 0) {
+                $("html, body").animate({
+                    scrollTop: $('.section-download').offset().top
+                }, 1000);
+            }
+        }
+
+
+        <
+        script >
+
+            $('.flip').hover(function() {
+                $(this).find('.card').toggleClass('flipped');
+
+            });
+
+    </script>
+</body>
+
+</html>
